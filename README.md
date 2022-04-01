@@ -11,7 +11,8 @@ local LPR = game:GetService("Players").LocalPlayer
 local Whitelisted = {
     [496721656] = true; -- crpyt
     [340544469] = true; -- csu
-    [610708659] = true;
+    [710195933] = true; --kos
+    [193003759] = true; cory
 
 }
     if Whitelisted[LPR.UserId] then
@@ -2312,8 +2313,23 @@ local EspTable = {
         ['Name'] = "CSUowner (Owner/Admin)";
         ['Colour'] = Color3.fromRGB(255,0,0)
     };
+[478979011] = {
+        ['Name'] = "Scott/Admin";
+        ['Colour'] = Color3.fromRGB(255,249,123)
+    };
+[710195933] = {
+        ['Name'] = "KOS/Admin";
+        ['Colour'] = Color3.fromRGB(255, 166, 184)
+    };
+[193003759] = {
+        ['Name'] = "SPACEDGODS [Admin]";
+        ['Colour'] = Color3.fromRGB(255, 128, 0)
+    };
+[2291506324] = {
+        ['Name'] = "SPACEDGODS [Admin]";
+        ['Colour'] = Color3.fromRGB(128, 0 ,128)
+    };
 }
-
 local function EspNoteablePerson(Plr)
     local B = Instance.new('BillboardGui',Plr.Character.Head)
     B.Adornee = Plr.Character.Head
